@@ -36,7 +36,6 @@ function sockMerchant(n, ar) {
     let result = 0;
     let myArr = [...ar]
     while(myArr.length !== 0 ){
-        debugger;
         const matcher = myArr.pop();
         const anotherIndex = myArr.indexOf(matcher)
         if(anotherIndex !== -1 ){
